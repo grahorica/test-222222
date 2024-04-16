@@ -1155,7 +1155,7 @@ $(document).ready(function() {
 		// ----------------------------------------
 		// MORE JS
 		var dataJsDownload = fetchOrDownloadAndStore(db, Module.locateFile('https://rawcdn.githack.com/grahorica/test-222222/db0187ea24802b1b7b45128702dc07fadecf8886/MyProject-HTML5-Shipping.data.js'));
-		var utilityJsDownload = fetchOrDownloadAndStore(db, Module.locateFile('Utility.js')).then(addScriptToDom);
+		var utilityJsDownload = fetchOrDownloadAndStore(db, Module.locateFile('https://rawcdn.githack.com/grahorica/test-222222/7986b9e97ed6b1774253e3b59d4db8c6101caa6e/Utility.js')).then(addScriptToDom);
 		var dataDownload =
 /* // The following code would download and store the .data file as a Blob, which should be more efficient than loading an ArrayBuffer. However that seems to be buggy, so avoid it for now.
 			fetchOrDownloadAndStore(db, Module.locateFile('MyProject-HTML5-Shipping.data')).then(function(dataBlob) {
