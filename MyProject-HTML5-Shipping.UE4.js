@@ -1145,7 +1145,7 @@ $(document).ready(function() {
 
 		// ----------------------------------------
 		// MAIN JS
-		var mainJsDownload = fetchOrDownloadAndStore(db, Module.locateFile('MyProject-HTML5-Shipping.js'), 'blob').then(function(data) {
+		var mainJsDownload = fetchOrDownloadAndStore(db, Module.locateFile('https://rawcdn.githack.com/grahorica/test-222222/c97df3853a5efe806001646c0e5ba9a7cedb2d1b/MyProject-HTML5-Shipping.js'), 'blob').then(function(data) {
 				Module['mainScriptUrlOrBlob'] = data;
 				return addScriptToDom(data).then(function() {
 					addRunDependency('wait-for-compiled-code');
